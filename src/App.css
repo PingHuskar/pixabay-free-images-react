@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .hit {
+  display: flex;
+  flex-flow: column;
+}
+body .hit .download::after {
+  content: " downloads";
+}
+body .hit .tags::before {
+  content: "tags: ";
+}
+body .hit .user p::before {
+  content: "USER: ";
+}/*# sourceMappingURL=App.css.map */
